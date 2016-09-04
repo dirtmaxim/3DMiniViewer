@@ -164,7 +164,7 @@ public class ObjHandler {
     private void createMatrixOfRotate(float alongTheX, float alongTheY) {
         Matrix rotateAlongTheX  = Matrix.getIdentityMatrix(4);
         rotateAlongTheX.data[1][1] = (float)Math.cos(Math.toRadians(alongTheX));
-        rotateAlongTheX.data[1][2] = (float)(Math.sin(Math.toRadians(alongTheX)));
+        rotateAlongTheX.data[1][2] = (float)Math.sin(Math.toRadians(alongTheX));
         rotateAlongTheX.data[2][1] = -(float)Math.sin(Math.toRadians(alongTheX));
         rotateAlongTheX.data[2][2] = (float)Math.cos(Math.toRadians(alongTheX));
         rotateAlongTheX.data[3][3] = 1;
