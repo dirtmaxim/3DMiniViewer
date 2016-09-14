@@ -6,4 +6,4 @@ This engine allows you to display Wavefront (.obj) format. It has changable sour
 
 Sample of render:
 
-![](https://github.com/dirtmaxim/3DMiniViewer/blob/master/readmeImage.png)
+![](https://cloud.githubusercontent.com/assets/11778655/18496566/84f1a4b2-7a2f-11e6-94a1-763cfe5ce017.png)
